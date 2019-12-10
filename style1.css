@@ -1,0 +1,50 @@
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	display: block;
+	background-color:black;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.doordiv{
+	height: 80%;
+	width: 100%;
+	display:flex;
+}
+.titlediv{
+	height: 20%;
+	width: 100%;
+	display:block;
+
+}
+.center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.contain-image{
+	max-height: 100%;
+	max-width: 100%;
+	margin: auto;
+}
+
+
+.day{
+	background-image: url("images/startscreenday.png");
+	background-color:black;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.night{
+	background-image: url("images/startscreennight.png");
+		background-color:black;
+	background-repeat: no-repeat;
+	background-size: cover;
+}

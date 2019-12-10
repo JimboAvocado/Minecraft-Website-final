@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css" />
+		<title> Minecraft Room </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head> 
+	<body id="screen">
+	 <div class="container">
+		<div class="top">	
+			<div class="chest">
+				<img src="images/chest2.png" class="center">
+			</div>
+			<div class="glowstone">
+				<img src="images/glowstone.png" class="center">
+			</div>
+			<div class="furnace">
+				<img class="center stove"id="furnace" onclick="burn()" >
+				<img src="images/furnaceburn.png" id="furnace2" onclick="burn()" class="center furnace2 none">
+			</div>
+			<div class="crafting">
+				<img src="images/crafting3.png" class="center">
+			</div>
+			<div class="jukebox">
+				<img src="images/jukebox4.png" class="pointer" class="center" onclick="toggleMusic()">
+				<audio src="Music/minediamonds.mp3" type="audio/mp3" id="music"></audio>
+			</div>
+
+		</div>
+		<div class="bottom">
+			<div class="bed" onclick="makeOpaque()">
+				<img class="center bed2 pointer" onclick="makeOpaque()">
+			</div>
+			<div class="midground">
+				<div class="redbutton">
+					<a href="index.html"><img src="images/redbutton.png" class="centerbottom" onclick="pause()"></a>
+				</div>
+			</div>
+			<div
+				class="sideright">
+					<div class="leftdiv">
+						<img src="images/books.png" class="center">
+					</div>
+					<div class="leftdiv">
+						<img src="images/anvil.png" class="center">
+					</div>
+			</div>
+		</div>
+	</div>
+	</body>
+	<script src="script.js"> </script>
+</html>
